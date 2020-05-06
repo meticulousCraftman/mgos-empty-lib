@@ -1,12 +1,19 @@
-author: mongoose-os
+name: mgos_empty_lib
+author: Apoorva Singh <apoorvasingh@thepodnet.com>
 type: lib
 description: An empty lib that does nothing
-version: 1.0
+version: 0.1
+
 
 sources:
   - src
+
+includes:
+  - include
+
 filesystem:
   - fs
+
 config_schema:
 libs:
 
